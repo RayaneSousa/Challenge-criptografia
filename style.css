@@ -1,48 +1,85 @@
 body{
-background-color:#d3cdcd;
+    opacity: 0.9;
+    background-color: rgb(233, 232, 232);
+}
+::placeholder{
+    position: absolute;
+    font-size: 30px;
+    margin:0%;
+    left: 10px;
+    font-family:'Courier New', Courier, monospace;
 }
 .principal{
     position: absolute;
     margin: 0 auto;
 }
-h1{
-    margin: 50px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-}
 .velho{
 margin:100px;
-padding:90px;
+margin-left: -2px;
+padding: 100px;
+padding-top: 100px;
 position:absolute;
-top:50px;
-left: 120px;
+top:0px;
+left: 100 px;
+width: 10%;
+height: 10%;
+border-color:#585758;
+border-radius: 20px;
+font-size: 20px;
+background-color: transparent;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
 }
 
 .novo{
 resize: none;
-margin: 86px;
-padding: 84px;    
+margin: 100px;
+margin-left:50px;
+padding: 100px; 
+padding-top: 100px;   
 position:absolute;
-top:63px;
-left:630px;
+top:0px;
+left: 800px;
+width: 10%;
+height: 10%;
+border-color: #585758;
+border-radius: 20px;
+font-size: 20px;
+background-color:transparent;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+
 }  
 
 .crip{
 position:absolute;
-top: 200px;
-left: 610px;
-
+top: 500px;
+left: 130px;
+width: 20%;
+height: 10%;
+color: #585758;
+border-radius: 20px;
+border-color: #585758;
 }
 
 .botao2{
 position:absolute;
-top: 250px;
-left: 600px;
+top: 500px;
+left: 950px;
+width: 20%;
+height: 10%;
+color: #585758;
+border-radius: 20px;
+border-color: #585758;
 }
 
 #copy{
 position:absolute;
-top: 300px;
-left: 625px;
+top: 500px;
+left: 543px;
+width: 20%;
+height: 10%;
+color: #585758;
+border-radius: 20px;
+border-color: #585758;
 }
